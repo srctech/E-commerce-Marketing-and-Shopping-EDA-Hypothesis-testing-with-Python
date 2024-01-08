@@ -7,25 +7,26 @@ The project expects you to Analyze user behavior across different page categorie
 
 ## Shopping dataset:
 Column Descriptions:
-Administrative: This is the number of pages of this type (administrative) that the user visited. Eg: account, addresses, cart, orders etc
-Administrative_Duration: This is the amount of time spent in this category of pages.
-Informational: This is the number of pages of this type (informational) that the user visited.
-Informational_Duration: This is the amount of time spent in this category of pages.
-ProductRelated: This is the number of pages of this type (product related) that the user visited.
-ProductRelated_Duration: This is the amount of time spent in this category of pages.
-BounceRates: The percentage of visitors who enter the website through that page and exit without triggering any additional tasks.
-ExitRates: The percentage of pageviews on the website that end at that specific page.
-PageValues: The average value of the page averaged over the value of the target page and/or the completion of an eCommerce transaction.
+- Administrative: This is the number of pages of this type (administrative) that the user visited. Eg: account, addresses, cart, orders etc
+- Administrative_Duration: This is the amount of time spent in this category of pages.
+- Informational: This is the number of pages of this type (informational) that the user visited.
+- Informational_Duration: This is the amount of time spent in this category of pages.
+- ProductRelated: This is the number of pages of this type (product related) that the user visited.
+- ProductRelated_Duration: This is the amount of time spent in this category of pages.
+- BounceRates: The percentage of visitors who enter the website through that page and exit without triggering any additional tasks.
+- ExitRates: The percentage of pageviews on the website that end at that specific page.
+- PageValues: The average value of the page averaged over the value of the target page and/or the completion of an eCommerce transaction.
 More information about how this is calculated
-SpecialDay: This value represents the closeness of the browsing date to special days or holidays (eg Mother's Day or Valentine's day) in which the transaction is more likely to be finalized. More information about how this value is calculated below.
-Month: Contains the month the pageview occurred, in string form.
-OperatingSystems: An integer value representing the operating system that the user was on when viewing the page.
-Browser: An integer value representing the browser that the user was using to view the page.
-Region: An integer value representing which region the user is located in.
-TrafficType: An integer value representing what type of traffic the user is categorized into.
-VisitorType: A string representing whether a visitor is New Visitor, Returning Visitor, or Other.
-Weekend: A boolean representing whether the session is on a weekend.
-Revenue: A boolean representing whether or not the user completed the purchase.
+- SpecialDay: This value represents the closeness of the browsing date to special days or holidays (eg Mother's Day or Valentine's day) in which the transaction is more likely to be finalized. More information 
+about how this value is calculated below.
+- Month: Contains the month the pageview occurred, in string form.
+- OperatingSystems: An integer value representing the operating system that the user was on when viewing the page.
+- Browser: An integer value representing the browser that the user was using to view the page.
+- Region: An integer value representing which region the user is located in.
+- TrafficType: An integer value representing what type of traffic the user is categorized into.
+- VisitorType: A string representing whether a visitor is New Visitor, Returning Visitor, or Other.
+- Weekend: A boolean representing whether the session is on a weekend.
+- Revenue: A boolean representing whether or not the user completed the purchase.
 
 The 'Revenue' attribute can be used as the class label. Of the 12,330 sessions in the dataset, 84.5% (10,422) were negative class samples that did not end with shopping, and the rest (1908) were positive class samples ending with shopping.
 
@@ -45,33 +46,33 @@ The dataset also includes operating system, browser, region, traffic type, visit
 
 ## Campaign Dataset
 Column Details:
-ID: Customer's Unique Identifier
-Year_Birth: Customer's Birth Year
-Education: Customer's education level (Graduation, Master, PhD, 2n Cycle(Diploma), Basic)
-Marital_Status: Customer's marital status
-Income: Customer's yearly household income
-Kidhome: Number of children in customer's household
-Teenhome: Number of teenagers in customer's household
-Dt_Customer: Date of customer's enrollment with the company
-Recency: Number of days since customer's last purchase
-MntWines: Amount spent on wine in the last 2 years
-MntFruits: Amount spent on fruits in the last 2 years
-MntMeatProducts: Amount spent on meat in the last 2 years
-MntFishProducts: Amount spent on fish in the last 2 years
-MntSweetProducts: Amount spent on sweets in the last 2 years
-MntGoldProds: Amount spent on gold in the last 2 years
-NumDealsPurchases: Number of purchases made with a discount
-NumWebPurchases: Number of purchases made through the company's web site
-NumCatalogPurchases: Number of purchases made using a catalogue
-NumStorePurchases: Number of purchases made directly in stores
-NumWebVisitsMonth: Number of visits to company's web site in the last month
-AcceptedCmp1: 1 if customer accepted the offer in the 1st campaign, 0 otherwise (Target variable)
-AcceptedCmp2: 1 if customer accepted the offer in the 2nd campaign, 0 otherwise (Target variable)
-AcceptedCmp3: 1 if customer accepted the offer in the 3rd campaign, 0 otherwise (Target variable)
-AcceptedCmp4: 1 if customer accepted the offer in the 4th campaign, 0 otherwise (Target variable)
-AcceptedCmp5: 1 if customer accepted the offer in the 5th campaign, 0 otherwise (Target variable)
-Complain: 1 if customer complained in the last 2 years, 0 otherwise
-Country: Customer's location
+- ID: Customer's Unique Identifier
+- Year_Birth: Customer's Birth Year
+- Education: Customer's education level (Graduation, Master, PhD, 2n Cycle(Diploma), Basic)
+- Marital_Status: Customer's marital status
+- Income: Customer's yearly household income
+- Kidhome: Number of children in customer's household
+- Teenhome: Number of teenagers in customer's household
+- Dt_Customer: Date of customer's enrollment with the company
+- Recency: Number of days since customer's last purchase
+- MntWines: Amount spent on wine in the last 2 years
+- MntFruits: Amount spent on fruits in the last 2 years
+- MntMeatProducts: Amount spent on meat in the last 2 years
+- MntFishProducts: Amount spent on fish in the last 2 years
+- MntSweetProducts: Amount spent on sweets in the last 2 years
+- MntGoldProds: Amount spent on gold in the last 2 years
+- NumDealsPurchases: Number of purchases made with a discount
+- NumWebPurchases: Number of purchases made through the company's web site
+- NumCatalogPurchases: Number of purchases made using a catalogue
+- NumStorePurchases: Number of purchases made directly in stores
+- NumWebVisitsMonth: Number of visits to company's web site in the last month
+- AcceptedCmp1: 1 if customer accepted the offer in the 1st campaign, 0 otherwise (Target variable)
+- AcceptedCmp2: 1 if customer accepted the offer in the 2nd campaign, 0 otherwise (Target variable)
+- AcceptedCmp3: 1 if customer accepted the offer in the 3rd campaign, 0 otherwise (Target variable)
+- AcceptedCmp4: 1 if customer accepted the offer in the 4th campaign, 0 otherwise (Target variable)
+- AcceptedCmp5: 1 if customer accepted the offer in the 5th campaign, 0 otherwise (Target variable)
+- Complain: 1 if customer complained in the last 2 years, 0 otherwise
+- Country: Customer's location
 
 *This is a CSV file of observations (customers) with variables related to marketing data. More specifically, the variables provide insights about:*
 Customer profiles
