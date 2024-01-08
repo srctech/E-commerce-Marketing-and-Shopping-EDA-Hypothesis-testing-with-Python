@@ -75,9 +75,9 @@ Column Details:
 - Country: Customer's location
 
 *This is a CSV file of observations (customers) with variables related to marketing data. More specifically, the variables provide insights about:*
-Customer profiles
-Products purchased
-Campaign success (or failure)
-Channel performance
+- Customer profiles
+- Products purchased
+- Campaign success (or failure)
+- Channel performance
 
 
